@@ -61,20 +61,23 @@ header button {
     margin: 0 auto;
 }
 
+.sez {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
 .sezione1 {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
-    height: 500px;
-    width: 100%;
     color: white;
     
 }
 
 .center {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -103,3 +106,49 @@ button {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
 }
+
+.flt {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.flt::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.big {
+    float: left;
+    width: 60%;
+    height: auto;
+}
+
+.sezione3 .big {
+    float: right;
+}
+
+.small {
+    width: calc(30% - 1rem);
+    margin: 1rem .5rem;
+    float: right;
+}
+
+.sezione3 .small {
+    float: left;
+}
+
+.flt big {
+    width: 100%;
+}
+
+.small h1 {    
+    font-size: 40px;
+}
+
+.small div {
+    margin-top: 1rem;
+    line-height: 1.2rem;
+}
+
+
