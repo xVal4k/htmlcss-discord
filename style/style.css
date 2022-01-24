@@ -5,7 +5,8 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
@@ -13,7 +14,7 @@ header {
     height: auto;
 }
 
-.container {
+.container-header {
     width: 80%;
     height: 3rem;
     margin: 0 auto;
@@ -44,7 +45,6 @@ nav a {
     padding: 0 .5rem;
 }
 
-
 header button {
     border-radius: 25px;
     padding: .5rem 1rem;
@@ -53,4 +53,53 @@ header button {
     top: 50%;
     right: 10px;
     transform: translate(-50%, -50%);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sezione1 {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    color: white;
+    
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.sezione1 h1 {
+    margin: 25px;
+    font-size: 50px;
+}
+
+.sezione1 .testo {
+    width: 80%;
+    margin: 1.5rem auto;
+    line-height: 1.5rem;
+}
+
+.but-black {
+    background: black;
+    color: white;
+}
+
+button {
+    border-radius: 25px;
+    padding: .5rem 1rem;
+    border: solid 1px transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
 }
